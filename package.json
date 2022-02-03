@@ -1,0 +1,25 @@
+{
+    "name": "erbs-profile",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./bin/www",
+        "dev": "nodemon ./bin/www",
+        "configure": "./bin/configuredb.sh"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "axios-rate-limit": "^1.3.0",
+        "axios-request-throttle": "^1.0.0",
+        "body-parser": "^1.19.1",
+        "express": "^4.17.2",
+        "pg": "^8.7.1"
+    }
+}
