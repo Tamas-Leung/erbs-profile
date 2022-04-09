@@ -5,6 +5,6 @@ const router = Router();
 
 // router.use("/monsters", monsters);
 // router.use("/lives", lives);
-router.use("/profile", profile);
+router.use("/api/profile", profile);
 
 module.exports = router;
